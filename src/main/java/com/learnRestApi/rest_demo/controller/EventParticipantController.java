@@ -47,5 +47,6 @@ public class EventParticipantController {
     public String deleteParticipantDetail(@PathVariable("eventName") String eventName){
 
     return eventParticipantService.deleteParticipant(eventName);
+    //sysout
 }
 }
